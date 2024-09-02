@@ -1,0 +1,439 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: whitesmoke;
+
+
+}
+
+body {
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    position: sticky;
+    position: relative;
+    top: 0px;
+    left: 80px;
+
+}
+
+.one {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.fa-automobile {
+
+    gap: 30px;
+    margin-left: 30px;
+
+}
+
+.two {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.header-bottom {
+    display: flex;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: bold;
+    align-content: center;
+
+}
+
+select {
+    margin-left: 80px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 40px;
+    border-color: #d8dfe0;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+
+
+}
+
+.location {
+    position: relative;
+    top: 45px;
+    left: 120px;
+}
+
+select:hover {
+    border-color: aqua;
+    cursor: pointer;
+
+
+}
+
+.search {
+    margin-left: 20px;
+    padding: 10px;
+    width: 600px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.fa-search {
+    background-color: #002f34;
+    color: aliceblue;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    align-content: center;
+    padding-left: 8px;
+}
+
+.item {
+
+    text-transform: capitalize;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+button {
+    position: relative;
+    top: 15px;
+    width: 150px;
+    height: 50px;
+    border-top: 3px solid #3a77ff;
+    border-bottom: 3px solid #3a77ff;
+    border-left: 3px solid yellow;
+    border-right: 3px solid aqua;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
+
+}
+
+@media only screen and (max-width :1024px) {
+
+    select {
+        width: 200px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    button {
+        width: 100px;
+    }
+
+    .search {
+        width: 400px;
+    }
+}
+
+
+/* this is menubar */
+.menubar {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.all {
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    gap: 40px;
+    margin-left: 40px;
+
+}
+
+.item1 {
+    text-decoration: none;
+    font-weight: normal;
+    display: flex;
+    font-size: 15px;
+}
+
+.item1:hover {
+    color: #ddf6f5;
+    cursor: pointer;
+}
+
+@media only screen and (max-width :1024px) {
+
+    .item1 {
+        font-size: 12px;
+        gap: 20px;
+    }
+}
+
+
+/* this is body */
+
+
+.box {
+    margin: 1.6rem auto 0;
+    max-width: 100%;
+    width: auto;
+}
+
+.main {
+    padding: 0 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 25px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 40px;
+
+}
+
+.card>img {
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.card {
+
+    max-width: 150px;
+    text-align: center;
+    text-transform: none;
+    justify-content: center;
+    margin-left: 70 px;
+    margin: 20px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sell-item {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+}
+
+.abc {
+    margin-left: 70px;
+    text-transform: none;
+    justify-content: space-between;
+    display: flex;
+
+
+
+}
+
+.card-sell {
+    border: 1px solid rgba(0, 47, 52, .2);
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+
+
+}
+
+.card-text {
+    text-transform: none;
+    position: absolute;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.fa-heart-o {
+    position: relative;
+    left: 250px;
+    bottom: 15px;
+
+}
+
+.card-text1 {
+    padding: 15px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+h3 {
+    color: rgba(114, 152, 255, 255);
+    font-weight: normal;
+}
+
+@media only screen and (max-width:1024px) {
+    .sell-item {
+       display: grid;
+       grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .card-sell {
+        margin-left: 30px;
+       
+
+    }
+}
+@media only screen and (max-width:786px) {
+    .sell-item {
+       flex-flow: column;
+
+    }
+
+    .card-sell {
+        margin-left: 30px;
+       
+
+    }
+}
+
+
+/* tis is footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.xyz {
+    font-weight: normal;
+    justify-content: center;
+    margin: auto;
+    text-transform: none;
+    font-size: 20px;
+
+}
+
+.woo {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 5px;
+    padding: 15px;
+}
+
+.add1 {
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+}
+
+@media screen and (max-width:1024px) {
+    .xyz {
+        display: none;
+    }
+    .add{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:786px) {
+    .xyz {
+        display: none;
+    }
+    .add{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid rgba(1, 55, 61, 0.2);
+    background-color: #ebeeef;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.fb {
+    background-color: #ebeeef;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.H {
+    font-size: 18px;
+    background-color: #ebeeef;
+padding: auto;
+}
+
+.moye {
+    background-color: #ebeeef;
+    font-size: 12px;
+    font-weight: normal;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    color: #002f34;
+    cursor: pointer;
+}
+
+.last {
+    background-color: #002f34;
+    height: 40px;
+    text-align: right;
+    display: block;
+    font-size: 10px;
+    color: #ddf6f5;
+    padding: 1.6rem;
+}
+
+@media screen and (max-width:1024px) {
+ .moye{
+    font-size:10px ;
+
+ }  
+ .H{
+    font-size: 14px;
+ } 
+}
